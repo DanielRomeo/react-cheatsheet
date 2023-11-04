@@ -1,4 +1,5 @@
-import {useState, PropsWithChildren} from 'react'
+'use client'
+import { PropsWithChildren} from 'react'
 
 type myPropsType = {
     isOpen: boolean,
@@ -23,8 +24,8 @@ function Modal({ isOpen, onClose, children }: PropsWithChildren<myPropsType>) {
 }
 
 export default function Home(){
-  const showLoginFormModal = true;
-  const showRegistrationFormModal = false;
+  const showLoginFormModal = false;
+  const showRegistrationFormModal = true;
 
   return (
     <div>
