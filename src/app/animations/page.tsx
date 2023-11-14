@@ -1,11 +1,14 @@
+'use client'
+import {motion} from 'framer-motion'
+import RotateBlock from './components/RotateBlock'
+import { Container } from 'react-bootsrap'
 
-const  Home = ()=>{
+
+export default function Home() {
     return (
         <div>
-          <h2 >sdfsd</h2>
+          <RotateBlock></RotateBlock>
           
         </div>
       )
 }
-
-return default Home;
