@@ -2,7 +2,7 @@
 import React, { PropsWithChildren } from 'react';
 import { motion } from 'framer-motion';
 
-const ColorChangeButton = ({ buttonText }: {buttonText: String}) => {
+const ColorChangeButton = ({ buttonText, children}: PropsWithChildren<any> | {buttonText: String}) => {
   const textVariants = {
     initial: { color: 'black' }, // initial text color
     hover: { color: 'blue' },     // color on hover
@@ -25,7 +25,7 @@ const ColorChangeButton = ({ buttonText }: {buttonText: String}) => {
             outline: 'none',
         }}
         >
-            {buttonText}
+            {buttonText} {children}
     </motion.button>
   );
 };

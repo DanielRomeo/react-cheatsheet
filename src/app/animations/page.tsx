@@ -14,7 +14,7 @@ export default function Home() {
             {/* <RotateBlock></RotateBlock>
             <Dropbox></Dropbox> */}
             <WebButtons></WebButtons>
-            <ColorChangeButton buttonText='Hello world'></ColorChangeButton>
+            <ColorChangeButton buttonText='Hello world'> Name is Daniel</ColorChangeButton>
           </Container>
         </div>
         
