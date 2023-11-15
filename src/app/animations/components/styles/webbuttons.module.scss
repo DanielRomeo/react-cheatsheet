@@ -1,0 +1,41 @@
+.Button{
+    border-radius: 20px;
+    border: 1px solid #B4A24B;
+    background: #4B5DB4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #B4A24B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+
+    &:hover{
+        // text-decoration: none;
+        background-color: #828fcb;
+        border: 1px solid #828fcb;   
+    }
+}
+
+.Button2{
+    @extend .Button;
+    border-radius: 20px;
+    border: 1px solid #B46D4B;
+    color: #B4A24B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #B46D4B;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    &:hover{
+        // text-decoration: none;
+        background-color: #d2a793;
+        border: 1px solid #d2a793;
+        // pointer-events: none;
+    }
+}
